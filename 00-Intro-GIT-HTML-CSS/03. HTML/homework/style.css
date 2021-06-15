@@ -1,0 +1,22 @@
+h1
+{
+
+  color:#FF0000
+}
+img
+{
+  height: 400px;
+}
+#thirdDiv
+{
+  width: 600px;
+  background-color: gray;
+  padding: 50px;
+  border: 13px;
+  border-color:red; 
+}
+#spanId
+{
+  font-size: 18px;
+  margin: 50px;
+}
