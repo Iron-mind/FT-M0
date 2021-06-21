@@ -279,11 +279,12 @@ function breakStatement(numero) {
       if(numero==i)
       {
         return "Se interrumpió la ejecución"
-        break
+
       }
       arrayAuxiliar.push(numero)
 
   }
+
   return arrayAuxiliar
 
 }
@@ -297,18 +298,19 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var arrayAuxiliar= []
-
-  for(let i=1;i<=10;i++)
+var suma= numero
+  for(let i=0;i<10;i++)
   {
 
-      numero+=2
-      if(0===i%5)
-      {
 
+      if(5===i)
+      {
         continue
       }
-      arrayAuxiliar.push(numero)
-
+      else {
+        suma+=2
+        arrayAuxiliar.push(suma)
+      }
   }
   return arrayAuxiliar
 
