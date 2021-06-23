@@ -47,12 +47,13 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
   String.prototype.reverse= function()
   {
-    stringInvertido=""
-    for(let i= this.length-1; i>=0;i--)
-    {
-      stringInvertido+= this[i]
-    }
-    return stringInvertido
+    return this.split("").reverse("").join("")
+    // stringInvertido=""
+    // for(let i= this.length-1; i>=0;i--)
+    // {
+    //   stringInvertido+= this[i]
+    // }
+    // return stringInvertido
   }
 }
 
